@@ -1,27 +1,33 @@
 {
-  "name": "nodejsproduct",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Docongkhai/NodeJSProduct.git"
-  },
-  "keywords": [
-    "NodeJS",
-    "Product",
-    "DOCONGKHAI"
-  ],
-  "author": "DOCONGKHAI",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Docongkhai/NodeJSProduct/issues"
-  },
-  "homepage": "https://github.com/Docongkhai/NodeJSProduct#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "nodejsproduct",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Docongkhai/NodeJSProduct.git"
+    },
+    "keywords": [
+        "NodeJS",
+        "Product",
+        "DOCONGKHAI"
+    ],
+    "author": "DOCONGKHAI",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Docongkhai/NodeJSProduct/issues"
+    },
+    "homepage": "https://github.com/Docongkhai/NodeJSProduct#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.2"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.7"
+    }
 }
